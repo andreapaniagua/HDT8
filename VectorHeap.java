@@ -40,7 +40,7 @@ public class VectorHeap<E extends Comparable> implements PriorityQueue<E> {
     {
         return (2*i+1) + 1;
     }
-
+    //A partir de aquí se utilizo el codigo extraido de :http://www.cs.utexas.edu/users/lin/cs345/Heap.java
     protected void percolateUp(int leaf)
     // pre: 0 <= leaf < size
     // post: moves node at index leaf up to appropriate position
