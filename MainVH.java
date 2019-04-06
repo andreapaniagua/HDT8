@@ -14,7 +14,6 @@ public class MainVH {
             FileReader fr = new FileReader("Pacientes.txt");
             BufferedReader br = new BufferedReader(fr);
             String text;
-            int i = 0;
             while ((text = br.readLine()) != null) {
                 String[] partes = text.split(", ");
                 String nombre = partes[0];
