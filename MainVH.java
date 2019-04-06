@@ -1,6 +1,6 @@
 //Andrea Paniagua, Juan Diego Solorzano
 //18733, 18151
-//Este es el main en el que el usuario ingresa a los pacientes
+//Este es el main en el que se implementa el Priority Queue con Vector Heap
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
