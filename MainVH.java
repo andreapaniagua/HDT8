@@ -30,7 +30,7 @@ public class MainVH {
 
         }
 
-        System.out.println("Listado de pacientes (nombre, condicion, prioridad):");
+        System.out.println("Listado de pacientes utilizando Vector Heap(nombre, condicion, prioridad):");
         while (!heapPrincipal.isEmpty()) {
             System.out.println(heapPrincipal.getFirst().nombre + ", " + heapPrincipal.getFirst().condicion + ", " + heapPrincipal.remove().gravedad);
         }
